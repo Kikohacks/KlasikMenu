@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+.view{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    
+    max-width: 600px;
+    height: fit-content;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.view div{
+    border: 3px solid #8e7718;
+    width: 229.5px;
+    height: 360px;
+    border-radius: 20px;
+}
